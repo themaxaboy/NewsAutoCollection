@@ -1,0 +1,26 @@
+Listing
+
+Listing                                  : Derivative warrant
+DW issuer                                : KGI SECURITIES (THAILAND) PUBLIC 
+COMPANY LIMITED (KGI)
+DW name                                  : KBAN13P1602A
+Secondary market                         : SET
+Trading date                             : 28-Jul-2015
+Number of derivative warrants (unit:     : 50,000,000
+DWs)
+Underlying Asset                         : KBANK
+DW Value (Baht)                          : 50,000,000.00
+Exercise ratio (DW : Underlying Asset)   : 17 : 1
+Exercise price (Baht)                    : 170.00
+Type of DW                               : Put warrant
+Exercise type                            : European style
+Last trading date                        : 11-Feb-2016
+Maturity date                            : 17-Feb-2016
+Last exercise date                       : 17-Feb-2016
+Market maker                             : KGI SECURITIES (THAILAND) PUBLIC 
+COMPANY LIMITED (KGI)
+Settlement condition(s)                  : Cash settlement
+Remark                                   :
+Please see Description, Terms and Conditions of DW above-mentioned through PDF 
+file disseminated on the SET Market Analysis and Reporting Tool (SETSMART).
+______________________________________________________________________

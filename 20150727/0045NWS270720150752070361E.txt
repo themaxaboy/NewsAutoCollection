@@ -1,0 +1,24 @@
+Listing
+
+Listing                                  : Warrant
+Company name                             : ASSET BRIGHT PUBLIC COMPANY LIMITED 
+(ABC)
+Warrant trading symbol                   : ABC-W2
+Secondary market                         : SET
+Trading date                             : 28-Jul-2015
+Number of listed warrants (unit:         : 1,755,998,608
+warrants)
+Exercise ratio (Warrant : Common stock)  : 1 : 1
+Exercise price (baht per share)          : 1.50
+Term of warrants                         : Not exceeding 5 years from the 
+issuance date. The Company will not extend the term of the Warrants after the
+issuance.
+Warrant price (baht per unit)            : 0.00
+First exercise date                      : 29-Jun-2018
+Last exercise date                       : 05-Jun-2020
+Remark                                   :
+Please see the description, condition and major characteristics of ABC-W2 in SET
+information Management System and see Terms and Conditions of ABC-W2 which were
+submitted to the warrant holders or from SET website :
+http://www.set.or.th/set/warrantslookup.do
+______________________________________________________________________

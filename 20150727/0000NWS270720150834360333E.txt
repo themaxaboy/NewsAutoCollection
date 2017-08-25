@@ -1,0 +1,23 @@
+Listing
+
+Listing                                  : Warrant
+Company name                             : INTER FAR EAST ENGINEERING PUBLIC 
+COMPANY LIMITED (IFEC)
+Warrant trading symbol                   : IFEC-W2
+Secondary market                         : SET
+Trading date                             : 28-Jul-2015
+Number of listed warrants (unit:         : 456,086,420
+warrants)
+Exercise ratio (Warrant : Common stock)  : 1 : 1
+Exercise price (baht per share)          : 25.00
+Term of warrants                         : 3 years from issued date (9 July, 
+2015)
+Warrant price (baht per unit)            : 0.00
+First exercise date                      : 31-May-2016
+Last exercise date                       : 06-Jul-2018
+Remark                                   :
+Please see the description, condition and major characteristics of IFEC-W2 in 
+SET information Management System and see Terms and Conditions of IFEC-W2 which
+were submitted to the warrant holders or from SET website :
+http://www.set.or.th/set/warrantslookup.do
+______________________________________________________________________

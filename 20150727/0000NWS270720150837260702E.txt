@@ -1,0 +1,30 @@
+Additional listed securities
+
+Subject                                  : New shares of MILL to be traded on 
+July 28, 2015
+Company name                             : MILLCON STEEL PUBLIC COMPANY LIMITED 
+(MILL)
+Old capital (baht)                       : 1,501,672,657.20
+- Common stock (Unit: shares)            : 3,114,489,886
+- Preferred stock (Unit: shares)         : 639,691,757
+Number of additional shares              :
+- Common stock (Unit: shares)            : 219,010
+- Preferred stock (Unit: shares)         : 0
+New capital (baht)                       : 1,501,760,261.20
+- Common stock (Unit: shares)            : 3,114,708,896
+- Preferred stock (Unit: shares)         : 639,691,757
+Par value (baht per share)               : 0.40000
+Allocated for                            : Warrants (MILL-W2) 150,000 units  
+exercise to 219,000 common shares
+Ratio (Warrant : share)                  : 1 : 1.46
+Exercise price (baht per share)          : 1.712
+Exercise date                            : From 23-Jun-2015 to 29-Jun-2015
+Allocated for                            : Warrants (MILL-W3) 10 units  exercise
+ to 10 common shares
+Ratio (Warrant : share)                  : 1 : 1
+Exercise price (baht per share)          : 3.00
+Exercise date                            : From 23-Jun-2015 to 29-Jun-2015
+Trading date                             : 28-Jul-2015
+Remark                                   :
+Preferred stocks are not listed securities.
+______________________________________________________________________

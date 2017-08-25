@@ -1,0 +1,37 @@
+Listing
+
+Listing                                  : Common stock
+Company name                             : WICE LOGISTICS PUBLIC COMPANY LIMITED
+ (WICE)
+Security Symbol                          : WICE
+Secondary market                         : SET
+Industry                                 : Services
+Sector                                   : Transportation & Logistics
+Listed date                              : 28-Jul-2015
+Trading date                             : 28-Jul-2015
+Number of listed shares (Common          : 600,000,000
+Stock)(shares)
+Number of paid-up Stocks  (Common        : 600,000,000
+Stock)(shares)
+Par value (baht per share)               : 0.50
+Paid-up capital (baht)                   : 300,000,000.00
+IPO shares (shares)                      : 150,000,000
+IPO price (baht)                         : 2.10
+Business description                     :
+The Company and its subsidiary are international logistics service and solution 
+providers, including import and export by both sea freight (Full and Less
+Container Loading) and by air freight, custom clearance and land transportation
+which the company aims at fulfilling wide range of customer requirements. In
+addition, the company provides Door-to-Door delivery which is transferring goods
+from a factory to another and the exporter is responsible for freight charges.
+Also, the company provides Exwork delivery which is transferring goods from a
+factory to another and the importer is responsible for freight charges.
+Remark                                   :
+IPO Shares allocation:
+1) Public amounting 142,500,000  shares
+2) Employees and executives (who are not directors) of the company amounting 
+7,500,000 shares
+
+- Please see the Information Memorandum of WICE though PDF file disseminated on 
+the SET Market Analysis and Reporting Tool (SETSMART)
+______________________________________________________________________
