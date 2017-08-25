@@ -64,6 +64,7 @@ func main() {
 					fileName := getFilename(event.Name)
 					log.Println("File found : ", fileName)
 					if len(fileName) != 30 {
+						log.Println("Incorrect file pattern : ", fileName)
 						continue
 					}
 					fileDate := getDate(fileName)
