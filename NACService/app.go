@@ -41,7 +41,7 @@ func loadSetting() {
 	}
 	Collectionpath, err = config.GetString("Path/Collectionpath", nil)
 	if err != nil {
-		log.Fatal("errErroror : ", err)
+		log.Fatal("Error : ", err)
 	}
 	Workingpath, err = config.GetString("Path/Workingpath", nil)
 	if err != nil {
