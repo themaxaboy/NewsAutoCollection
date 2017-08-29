@@ -1,7 +1,7 @@
 {
-    "APPName": "NewsAutoCollection",
-    "DisplayName": "Go Service NewsAutoCollection",
-    "Description": "This is an NewsAutoCollection Go service.",
+    "APPName": "News Auto Collection",
+    "DisplayName": "Service News Auto Collection",
+    "Description": "Service for News Auto Collection",
     "Path": {
         "Collectionpath": "C:\\Users\\Mr.Maxman\\Desktop\\NewsAutoCollection\\exampleData",
         "Workingpath": "C:\\Users\\Mr.Maxman\\Desktop\\NewsAutoCollection\\exampleData\\working"

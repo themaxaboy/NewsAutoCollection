@@ -34,7 +34,7 @@ func usage(errmsg string) {
 }
 
 func main() {
-	const svcName = "News Auto Collection"
+	const svcName = "News Auto Collection Service"
 
 	isIntSess, err := svc.IsAnInteractiveSession()
 	if err != nil {
@@ -55,7 +55,7 @@ func main() {
 		runService(svcName, true)
 		return
 	case "install":
-		err = installService(svcName, "Go Service NewsAutoCollection")
+		err = installService(svcName, "Service for News Auto Collection")
 	case "remove":
 		err = removeService(svcName)
 	case "start":
