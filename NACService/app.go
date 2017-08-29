@@ -53,8 +53,10 @@ func loadSetting() {
 	log.Println("Workingpath :", Workingpath)
 }
 
-func main() {
+func app() {
 	loadSetting()
+	moveOldfile()
+
 	watcher, err := fsnotify.NewWatcher()
 	if err != nil {
 		log.Fatal(err)
@@ -66,28 +68,13 @@ func main() {
 		for {
 			select {
 			case event := <-watcher.Events:
-				//log.Println("event:", event)
 				if event.Op&fsnotify.Create == fsnotify.Create {
 					fileName := getFilename(event.Name)
-					log.Println("File found : ", fileName)
-					if len(fileName) != 30 {
-						log.Println("Incorrect file pattern : ", fileName)
+					if !validPattern(fileName) {
 						continue
 					}
-					fileDate := getDate(fileName)
-					outputPath := path.Join(Collectionpath, fileDate)
-					if !exists(outputPath) {
-						err := os.MkdirAll(outputPath, os.ModePerm)
-						log.Println("Make dir : ", outputPath)
-						if err != nil {
-							log.Fatal("Error : ", err)
-						}
-					}
-					err := os.Rename(event.Name, path.Join(outputPath, fileName))
-					log.Println("Move file : ", fileName, " >>> ", fileDate)
-					if err != nil {
-						log.Fatal("Error : ", err)
-					}
+
+					moveFile(event.Name)
 				}
 			case err := <-watcher.Errors:
 				log.Println("Error : ", err)
@@ -121,4 +108,52 @@ func exists(filePath string) (exists bool) {
 		exists = false
 	}
 	return
+}
+
+func validPattern(fileName string) bool {
+	if len(fileName) != 30 {
+		log.Println("Incorrect file pattern : ", fileName)
+		return false
+	}
+	return true
+}
+
+func moveFile(evenFile string) {
+	fileName := getFilename(evenFile)
+	log.Println("File found : ", fileName)
+
+	fileDate := getDate(fileName)
+	outputPath := path.Join(Collectionpath, fileDate)
+	if !exists(outputPath) {
+		err := os.MkdirAll(outputPath, os.ModePerm)
+		log.Println("Make dir : ", outputPath)
+		if err != nil {
+			log.Fatal("Error : ", err)
+		}
+	}
+	err := os.Rename(evenFile, path.Join(outputPath, fileName))
+	log.Println("Move file : ", fileName, " >>> ", fileDate)
+	if err != nil {
+		log.Fatal("Error : ", err)
+	}
+}
+
+func moveOldfile() {
+	fileList := []string{}
+	err := filepath.Walk(Workingpath, func(path string, f os.FileInfo, err error) error {
+		fileList = append(fileList, path)
+		return nil
+	})
+	if err != nil {
+		log.Fatal("Error : ", err)
+	}
+
+	for _, file := range fileList {
+		log.Println("Old file : ", file)
+		fileName := getFilename(file)
+		if !validPattern(fileName) {
+			continue
+		}
+		moveFile(file)
+	}
 }
